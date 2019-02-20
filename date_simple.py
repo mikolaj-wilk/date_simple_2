@@ -1,5 +1,5 @@
 import datetime
-# HEllo I hacked your file
+# Hello I hacked your file
 def get_date_object(date=None):
     if date == None:
 	    return datetime.date.today()
