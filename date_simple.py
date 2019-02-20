@@ -1,5 +1,5 @@
 import datetime
-
+# HEllo I hacked your file
 def get_date_object(date=None):
     if date == None:
 	    return datetime.date.today()
@@ -19,5 +19,5 @@ def get_date_string(date_object=None):
         try: 
             date_string = date_object.strftime('%Y-%m-%d')
             return date_string 
-        except (TypeError, AttributeError):
+except (TypeError, AttributeError):
             raise TypeError('Not a datetime.date object type')
